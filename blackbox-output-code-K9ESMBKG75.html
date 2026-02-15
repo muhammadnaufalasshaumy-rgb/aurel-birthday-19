@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, [Nama Pacar]!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            color: #333;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff69b4;
+            font-size: 3em;
+        }
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .message {
+            font-size: 1.2em;
+            margin: 20px;
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday, [Nama Pacar]! 🎉</h1>
+    <img src="[URL Gambar Pacar atau Kue Ulang Tahun]" alt="Foto Pacar">
+    <div class="message">
+        <p>[Pesan Pribadi Anda, misalnya: "Selamat ulang tahun, sayang! Semoga tahun ini penuh kebahagiaan dan cinta. Aku sayang kamu!"]</p>
+    </div>
+    <button onclick="alert('I love you!')">Klik untuk Surprise</button>
+    
+    <script>
+        // Tambahan JS sederhana untuk efek
+        document.addEventListener('DOMContentLoaded', function() {
+            const colors = ['#ff69b4', '#ffa500', '#00ff00', '#0000ff'];
+            let i = 0;
+            setInterval(() => {
+                document.body.style.backgroundColor = colors[i % colors.length];
+                i++;
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
